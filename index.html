@@ -10,44 +10,7 @@
     <title>Portfólio Web</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
-    <style>
-      #nome {
-        font-family: fantasy;
-        text-align: center;
-      }
-      
-      /* .center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-      } */
-
-      body {
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        background-color: hsla(167, 29%, 85%, 1);
-        color: #272932;
-      }
-
-      p {
-        text-align: justify;
-      }
-
-      .picture{
-        border-radius: 100%;
-      }
-
-      .center-image {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 100%;
-        width: 200px;
-        height: 200px;
-        object-fit: cover;
-      }
-
-    </style>
+    <link rel="stylesheet" href="style.css" />
     </head>
   </head>
   <body>
@@ -66,14 +29,27 @@
       <li><a href="#blog">Blog</a></li>
       <br />
     </ul>
+    <!-- Div imagem e descrição -->
+    <div id='img-description'>
     <h1 id="nome">Paolo Enrico Iacono Fullone</h1>
+      <div>
+        <p>
+          <img src="images/paolo-1.jpeg" alt="Foto de Paolo com camisa cinza" class="center-image" id='foto-paolo'/>
+        </p>
 
+        <h2>Descrição:</h2>
+        <p id="descricao">
+          <strong>Brasileiro, </strong>possuindo <strong>cidadania Italiana.</strong> Fluente em <strong> inglês e espanhol,</strong> graduado em engenharia elétrica em Dezembro/2002 (por um deslize não foi na área de Tecnologia), apaixonado pela prática de esportes, encontrei no tênis uma maneira de me manter saudável, trabalhei durante alguns
+          anos como engenheiro principalmente na Siemens, inclusive tendo a
+          oportunidade de
+          <strong>morar no México por 2 anos com a família. </strong> Também passei pela Vale e Usiminas. Por onde passei deixei como legado várias planilhas em excel automatizadas (algumas com VBA), sempre pesquisando e implementando por conta própria, sem muito estudo. Estou me preparando na <strong>Trybe</strong> para ingressar
+          no mercado de tecnologia como <strong>Desenvovledor Web</strong>. Uma das grandes vantagens é poder fazer isso do conforto da minha casa em Coronel Fabriciano / MG. 
+        </p>
+      </div>
+    </div>
+
+  <h2 id="social-media">Redes Sociais:</h2>
     <p>
-     <img src="images/paolo-1.jpeg" alt="Foto de Paolo" class="center-image"/>
-    </p>
-
-    <h2>Redes Sociais:</h2>
-    <p id="social-media">
       <img src="images/linkedin.png" width="20">
       <a href="https://linkedin.com/in/paolofullone/" target="_blank"
         >Linkedin</a
@@ -82,14 +58,6 @@
       <a href="https://www.github.com/paolofullone" target="_blank">Github</a>
     </p>
 
-    <h2>Descrição:</h2>
-    <p id="descricao">
-      <strong>Brasileiro, </strong>possuindo <strong>cidadania Italiana.</strong> Fluente em <strong> inglês e espanhol,</strong> graduado em engenharia elétrica em Dezembro/2002 (por um deslize não foi na área de Tecnologia), apaixonado pela prática de esportes, encontrei no tênis uma maneira de me manter saudável, trabalhei durante alguns
-      anos como engenheiro principalmente na Siemens, inclusive tendo a
-      oportunidade de
-      <strong>morar no México por 2 anos com a família. </strong> Também passei pela Vale e Usiminas. Por onde passei deixei como legado várias planilhas em excel automatizadas (algumas com VBA), sempre pesquisando e implementando por conta própria, sem muito estudo. Estou me preparando na <strong>Trybe</strong> para ingressar
-      no mercado de tecnologia como <strong>Desenvovledor Web</strong>. Uma das grandes vantagens é poder fazer isso do conforto da minha casa em Coronel Fabriciano / MG. 
-    </p>
     <h2 id="habilidades">Habilidades:</h2>
     <ul >
       <li>
