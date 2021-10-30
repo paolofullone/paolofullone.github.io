@@ -1,4 +1,4 @@
-#nome {
+#name {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
@@ -15,10 +15,6 @@ p {
   text-align: justify;
 }
 
-.picture {
-  border-radius: 100%;
-}
-
 .center-image {
   display: block;
   margin-right: 15px;
@@ -26,27 +22,40 @@ p {
   object-fit: cover;
 }
 
-.descricao {
+.description {
   position: absolute;
 }
 
-#foto-paolo {
+/* Fazer o objeto flutuante responsivo, manter o parágrafo sempre a direita e não ficar texto embaixo da foto. Procurei exemplos em outras páginas mas só encontrei com flexbox, inclusive um que a imagem era escondida se o tamanho da tela fosse muito reduzido.*/
+/* resolvi com z-index: imagem e descrição em uma div e o conteúdo do site em outra.  */
+
+#picture-paolo {
   float: left;
   width: 200px;
   height: 200px;
-  /* padding: 10px;
-  background-color: lime; */
+  padding: 10px;
+  /* background-color: lime; */
 }
 
 #img-description {
   max-width: 90%;
   margin: 0 auto;
+  z-index: 1;
+  /* border: 2px solid teal; */
 }
 
 #social-media {
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
-/* div {
-  border: 2px solid green;
-} */
+#site-content {
+  position: absolute;
+  margin-top: 20px;
+  z-index: 2;
+  /* border: 2px solid teal; */
+}
+
+.smaller-font {
+  font-size: 15px;
+  color: rgb(100, 156, 156);
+}
