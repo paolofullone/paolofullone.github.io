@@ -18,7 +18,9 @@ p {
 .center-image {
   display: block;
   margin-right: 15px;
-  border-radius: 100%;
+
+  /* this let's the image rounded, to use it adjust the #picture-paolo width to 200px  */
+  /* border-radius: 100%; */
   object-fit: cover;
 }
 
@@ -31,7 +33,7 @@ p {
 
 #picture-paolo {
   float: left;
-  width: 200px;
+  width: 150px;
   height: 200px;
   padding: 10px;
   /* background-color: lime; */
