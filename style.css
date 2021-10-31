@@ -53,6 +53,7 @@ p {
 #site-content {
   position: absolute;
   z-index: 2;
+  margin-top: 25px;
   /* border: 2px solid teal; */
 }
 
