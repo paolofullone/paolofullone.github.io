@@ -50,7 +50,6 @@ p {
 
 #site-content {
   position: absolute;
-  margin-top: 20px;
   z-index: 2;
   /* border: 2px solid teal; */
 }
