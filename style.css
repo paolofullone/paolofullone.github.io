@@ -1,63 +1,76 @@
-#name {
-  font-family: Arial, Helvetica, sans-serif;
+#header {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
   text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  /* border: 2px solid teal; */
 }
 
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: hsla(167, 29%, 85%, 1);
-  color: #272932;
-  max-width: 95%;
-  margin: 0 auto;
+  background-color: #1f2833;
+  color: #66fcf1;
+}
+
+a {
+  color: #66fcf1;
 }
 
 p {
   text-align: justify;
 }
 
-.center-image {
-  display: block;
-  margin-right: 15px;
-
-  /* this let's the image rounded, to use it adjust the #picture-paolo width to 200px  */
-  /* border-radius: 100%; */
-  object-fit: cover;
-}
-
-.description {
-  position: absolute;
-}
-
-/* Fazer o objeto flutuante responsivo, manter o parágrafo sempre a direita e não ficar texto embaixo da foto. Procurei exemplos em outras páginas mas só encontrei com flexbox, inclusive um que a imagem era escondida se o tamanho da tela fosse muito reduzido.*/
-/* resolvi com z-index: imagem e descrição em uma div e o conteúdo do site em outra.  */
+/* #img-paolo {
+  border: 2px solid rgb(51, 53, 197);
+} */
 
 #picture-paolo {
   float: left;
   width: 150px;
   height: 200px;
   padding: 10px;
-  /* background-color: lime; */
+  /* This centers the image: */
+  display: block;
+  object-fit: cover;
 }
 
 #img-description {
-  max-width: 90%;
-  margin: 0 auto;
+  display: flex;
   z-index: 1;
+  margin-bottom: 10px;
   /* border: 2px solid teal; */
-}
-
-#social-media {
-  margin-top: 50px;
 }
 
 #site-content {
   position: absolute;
   z-index: 2;
-  margin-top: 25px;
+  padding: 10px;
   /* border: 2px solid teal; */
 }
 
 .smaller-font {
   font-size: 15px;
-  color: rgb(100, 156, 156);
+  color: #45a29e;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+.first-color {
+  background: #edc7b7;
+}
+.second-color {
+  background: #eee2dc;
+}
+.third-color {
+  background: #bab2b5;
+}
+.fourth-color {
+  background: #123c69;
+}
+.fifth-color {
+  background: #ac3b61;
 }

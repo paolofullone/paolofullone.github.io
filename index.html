@@ -8,53 +8,37 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Portfólio Web</title>
-    <meta name="description" content="" />
+    <meta name="description" content="Portfolio de Paolo Enrico Iacono Fullone, estudante de desenvolvimento web na Trybe" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
+    <html lang="pt-br">
     </head>
   </head>
   <body>
-    <!--[if lt IE 7]>
-      <p class="browsehappy">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="#">upgrade your browser</a> to improve your experience.
-      </p>
-    <![endif]-->
-    <!-- <p id="topo">Acesso Rápido:</p>
-    <ul>
-      <li><a href="#nome">Nome</a></li>
-      <li><a href="#linkedin">Linkedin</a></li>
-      <li><a href="#descricao">Descrição</a></li>
-      <li><a href="#habilidades">Habilidades</a></li>
-      <li><a href="#blog">Blog</a></li>
-      <br />
-    </ul> -->
-    <!-- Div imagem e descrição -->
-    <div id='img-description'>
-    <h1 id="name">Paolo Enrico Iacono Fullone</h1>
-      <div>
-        <p>
-          <img src="images/paolo-1.png" alt="Foto de Paolo com camisa cinza" class="center-image" id='picture-paolo'/>
-        </p>
-
+    <header id="header">Paolo Enrico Iacono Fullone</header>
+    <main id="img-description">
+      <section id="img-paolo">
+        <img src="images/paolo-1.png" alt="Foto de Paolo com camisa cinza"  id='picture-paolo'/>
+      </section>
+      <article id="description">
         <h2>Descrição:</h2>
-        <p id="description">
-          <strong><img src="images/bandeira-brasil.jpeg" alt="Bandeira do Brasil" width="15"/> Brasileiro, </strong>possuindo <strong>cidadania <img src="images/bandeira-italia.png" alt="Bandeira da Itália" width="15"/> Italiana.</strong> Fluente em <strong> inglês e espanhol,</strong> graduado em engenharia elétrica (por um deslize não foi na área de Tecnologia), adoro jogar tênis (uma maneira de me manter saudável), trabalhei durante alguns
+        <p>
+          <strong>Brasileiro, </strong>possuindo <strong>cidadania Italiana.</strong> Fluente em <strong> inglês e espanhol,</strong> graduado em engenharia elétrica (por um deslize não foi na área de Tecnologia), adoro jogar tênis (uma maneira de me manter saudável), trabalhei durante alguns
           anos como engenheiro (passei pela Siemens, Vale e Usiminas), inclusive tendo a oportunidade de
           <strong>morar no México por 2 anos com a família. </strong> Por onde passei deixei como legado várias planilhas em excel automatizadas (Macros, VBA), sempre pesquisando e implementando por conta própria, sem muito estudo. Estou me preparando na <strong>Trybe</strong> para ingressar
           no mercado de tecnologia como <strong>Desenvovledor Web</strong>. Uma das grandes vantagens é poder fazer isso do conforto da minha casa em Coronel Fabriciano / MG. 
         </p>
-      </div>
-    </div>
+      </article>
+    </main>
 
-    <div id='site-content'>
+    <section id='site-content'>
       <p id="social-media">
-        <img src="images/linkedin.png" width="20">
-        <a href="https://linkedin.com/in/paolofullone/" target="_blank"
+        <!-- <img src="images/linkedin.png" width="20" alt="imagem do logotipo do linkedin"> -->
+        <a href="https://linkedin.com/in/paolofullone/" target="_blank" rel="noreferrer"
           >Linkedin</a
         > / 
-        <img src="images/github.png" width="20">
-        <a href="https://www.github.com/paolofullone" target="_blank">Github</a>
+        <!-- <img src="images/github.png" width="20" alt="imagem do logotipo do github"> -->
+        <a href="https://www.github.com/paolofullone" target="_blank" rel="noreferrer">Github</a>
       </p>
 
       <h2 id="habilidades">Habilidades:</h2>
@@ -95,7 +79,7 @@
         Este blog contém artigos técnicos de diferentes tecnologias.
       </p>
       <!-- <p><a href="#topo">Voltar ao topo</a></p> -->
-    </div>
+    </section>
     <script src="" async defer></script>
   </body>
 </html>
