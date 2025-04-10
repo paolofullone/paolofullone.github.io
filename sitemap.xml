@@ -3,36 +3,54 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://paolofullone.github.io/</loc>
-    <lastmod>2025-03-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://paolofullone.github.io/tags/.net/</loc>
-    <lastmod>2025-03-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://paolofullone.github.io/tags/csharp/</loc>
-    <lastmod>2025-03-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://paolofullone.github.io/tags/docker-compose/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://paolofullone.github.io/tags/dotnet/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://paolofullone.github.io/tags/functional-tests/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://paolofullone.github.io/tags/integrated-tests/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://paolofullone.github.io/tags/kafka/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://paolofullone.github.io/tags/load-tests/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://paolofullone.github.io/post/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://paolofullone.github.io/post/2025-04-10-runningtracker/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://paolofullone.github.io/tags/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://paolofullone.github.io/tags/unit-tests/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://paolofullone.github.io/tags/docker/</loc>
     <lastmod>2025-03-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://paolofullone.github.io/tags/dotnet/</loc>
-    <lastmod>2025-03-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://paolofullone.github.io/post/2025-03-16-kafka/</loc>
-    <lastmod>2025-03-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://paolofullone.github.io/tags/kafka/</loc>
     <lastmod>2025-03-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://paolofullone.github.io/tags/kubernetes/</loc>
     <lastmod>2025-03-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://paolofullone.github.io/tags/microservices/</loc>
-    <lastmod>2025-03-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://paolofullone.github.io/post/</loc>
-    <lastmod>2025-03-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://paolofullone.github.io/tags/</loc>
     <lastmod>2025-03-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://paolofullone.github.io/page/about/</loc>

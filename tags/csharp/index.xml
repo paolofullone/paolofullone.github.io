@@ -8,8 +8,15 @@
     <language>en</language>
     <managingEditor>paolo.enrico@gmail.com (Paolo Fullone)</managingEditor>
     <webMaster>paolo.enrico@gmail.com (Paolo Fullone)</webMaster>
-    <lastBuildDate>Sun, 16 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://paolofullone.github.io/tags/csharp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RunningTracker</title>
+      <link>https://paolofullone.github.io/post/2025-04-10-runningtracker/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (Paolo Fullone)</author>
+      <guid>https://paolofullone.github.io/post/2025-04-10-runningtracker/</guid>
+      <description>&lt;p&gt;This project is a RESTful API to keep the track of running amateur activities.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve did it since I am an amateur runner.&lt;/p&gt;&#xA;&lt;p&gt;So, the API itself was not a work challenge, it was more a fun project to do in my free time. But I also took the opportunity to make all tests I&amp;rsquo;m aware of and I left a detailed explanation of each one of them in the readme of the project in &lt;a href=&#34;https://github.com/paolofullone/RunningTracker&#34;&gt;github&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Kafka</title>
       <link>https://paolofullone.github.io/post/2025-03-16-kafka/</link>
