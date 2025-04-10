@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Paolo Fullone</title>
-    <link>http://localhost:1313/page/</link>
+    <link>https://paolofullone.github.io/page/</link>
     <description>Recent content in Pages on Paolo Fullone</description>
     <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>youremail@domain.com (Some Person)</managingEditor>
     <webMaster>youremail@domain.com (Some Person)</webMaster>
-    <atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://paolofullone.github.io/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About me</title>
-      <link>http://localhost:1313/page/about/</link>
+      <link>https://paolofullone.github.io/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>youremail@domain.com (Some Person)</author>
-      <guid>http://localhost:1313/page/about/</guid>
+      <guid>https://paolofullone.github.io/page/about/</guid>
       <description>&lt;p&gt;My name is &lt;strong&gt;Paolo Fullone&lt;/strong&gt;. I am a backend software engineer with a strong focus on C# and .NET technologies. I have a passion for building scalable and efficient microservices architectures, RESTful APIs, and cloud-based systems. My experience includes working with various databases, messaging systems, and performance optimization techniques. I am committed to writing clean, maintainable code and following best practices in software development.&lt;/p&gt;&#xA;&lt;p&gt;I was born in Brazil, but I also have Italian Citzenship.&lt;/p&gt;</description>
     </item>
   </channel>
