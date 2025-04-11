@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Microservices on Paolo Fullone</title>
-    <link>http://localhost:1313/tags/microservices/</link>
-    <description>Recent content in Microservices on Paolo Fullone</description>
+    <title>Microservices on </title>
+    <link>https://paolofullone.github.io/tags/microservices/</link>
+    <description>Recent content in Microservices on </description>
     <generator>Hugo</generator>
     <language>en</language>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <managingEditor>paolo.enrico@gmail.com (Paolo Fullone)</managingEditor>
+    <webMaster>paolo.enrico@gmail.com (Paolo Fullone)</webMaster>
     <lastBuildDate>Sun, 16 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/microservices/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://paolofullone.github.io/tags/microservices/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kafka</title>
-      <link>http://localhost:1313/post/2025-03-16-kafka/</link>
-      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate><author>youremail@domain.com (Some Person)</author>
-      <guid>http://localhost:1313/post/2025-03-16-kafka/</guid>
+      <link>https://paolofullone.github.io/post/2025-03-16-kafka/</link>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (Paolo Fullone)</author>
+      <guid>https://paolofullone.github.io/post/2025-03-16-kafka/</guid>
       <description>&lt;p&gt;We were facing a challenge as a team to move a legacy application to a microservices architecture. The application was built using .NET and was running on a monolithic architecture. We decided to use &lt;a href=&#34;https://kafka.apache.org/&#34;&gt;Kafka&lt;/a&gt; as our message broker to decouple the services and allow for asynchronous communication between them.&lt;/p&gt;&#xA;&lt;p&gt;This application was responsible to retrieve millions of operations on a daily basis and calculate the commission of each associated office and financial advisors.&lt;/p&gt;</description>
     </item>
   </channel>

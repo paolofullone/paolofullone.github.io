@@ -1,111 +1,111 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Paolo Fullone</title>
-    <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on Paolo Fullone</description>
+    <title>Tags on </title>
+    <link>https://paolofullone.github.io/tags/</link>
+    <description>Recent content in Tags on </description>
     <generator>Hugo</generator>
     <language>en</language>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <managingEditor>paolo.enrico@gmail.com (Paolo Fullone)</managingEditor>
+    <webMaster>paolo.enrico@gmail.com (Paolo Fullone)</webMaster>
     <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://paolofullone.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>.Net</title>
-      <link>http://localhost:1313/tags/.net/</link>
-      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><author>youremail@domain.com (Some Person)</author>
-      <guid>http://localhost:1313/tags/.net/</guid>
+      <link>https://paolofullone.github.io/tags/.net/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (Paolo Fullone)</author>
+      <guid>https://paolofullone.github.io/tags/.net/</guid>
       <description></description>
     </item>
     <item>
       <title>Csharp</title>
-      <link>http://localhost:1313/tags/csharp/</link>
-      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><author>youremail@domain.com (Some Person)</author>
-      <guid>http://localhost:1313/tags/csharp/</guid>
+      <link>https://paolofullone.github.io/tags/csharp/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (Paolo Fullone)</author>
+      <guid>https://paolofullone.github.io/tags/csharp/</guid>
       <description></description>
     </item>
     <item>
       <title>Docker Compose</title>
-      <link>http://localhost:1313/tags/docker-compose/</link>
-      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><author>youremail@domain.com (Some Person)</author>
-      <guid>http://localhost:1313/tags/docker-compose/</guid>
+      <link>https://paolofullone.github.io/tags/docker-compose/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (Paolo Fullone)</author>
+      <guid>https://paolofullone.github.io/tags/docker-compose/</guid>
       <description></description>
     </item>
     <item>
       <title>Dotnet</title>
-      <link>http://localhost:1313/tags/dotnet/</link>
-      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><author>youremail@domain.com (Some Person)</author>
-      <guid>http://localhost:1313/tags/dotnet/</guid>
+      <link>https://paolofullone.github.io/tags/dotnet/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (Paolo Fullone)</author>
+      <guid>https://paolofullone.github.io/tags/dotnet/</guid>
       <description></description>
     </item>
     <item>
       <title>Functional Tests</title>
-      <link>http://localhost:1313/tags/functional-tests/</link>
-      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><author>youremail@domain.com (Some Person)</author>
-      <guid>http://localhost:1313/tags/functional-tests/</guid>
+      <link>https://paolofullone.github.io/tags/functional-tests/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (Paolo Fullone)</author>
+      <guid>https://paolofullone.github.io/tags/functional-tests/</guid>
       <description></description>
     </item>
     <item>
       <title>Integrated Tests</title>
-      <link>http://localhost:1313/tags/integrated-tests/</link>
-      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><author>youremail@domain.com (Some Person)</author>
-      <guid>http://localhost:1313/tags/integrated-tests/</guid>
+      <link>https://paolofullone.github.io/tags/integrated-tests/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (Paolo Fullone)</author>
+      <guid>https://paolofullone.github.io/tags/integrated-tests/</guid>
       <description></description>
     </item>
     <item>
       <title>Kafka</title>
-      <link>http://localhost:1313/tags/kafka/</link>
-      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><author>youremail@domain.com (Some Person)</author>
-      <guid>http://localhost:1313/tags/kafka/</guid>
+      <link>https://paolofullone.github.io/tags/kafka/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (Paolo Fullone)</author>
+      <guid>https://paolofullone.github.io/tags/kafka/</guid>
       <description></description>
     </item>
     <item>
       <title>Load Tests</title>
-      <link>http://localhost:1313/tags/load-tests/</link>
-      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><author>youremail@domain.com (Some Person)</author>
-      <guid>http://localhost:1313/tags/load-tests/</guid>
+      <link>https://paolofullone.github.io/tags/load-tests/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (Paolo Fullone)</author>
+      <guid>https://paolofullone.github.io/tags/load-tests/</guid>
       <description></description>
     </item>
     <item>
       <title>Unit Tests</title>
-      <link>http://localhost:1313/tags/unit-tests/</link>
-      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><author>youremail@domain.com (Some Person)</author>
-      <guid>http://localhost:1313/tags/unit-tests/</guid>
+      <link>https://paolofullone.github.io/tags/unit-tests/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (Paolo Fullone)</author>
+      <guid>https://paolofullone.github.io/tags/unit-tests/</guid>
       <description></description>
     </item>
     <item>
       <title>SignalR</title>
-      <link>http://localhost:1313/tags/signalr/</link>
-      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate><author>youremail@domain.com (Some Person)</author>
-      <guid>http://localhost:1313/tags/signalr/</guid>
+      <link>https://paolofullone.github.io/tags/signalr/</link>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (Paolo Fullone)</author>
+      <guid>https://paolofullone.github.io/tags/signalr/</guid>
       <description></description>
     </item>
     <item>
       <title>SQL Server</title>
-      <link>http://localhost:1313/tags/sql-server/</link>
-      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate><author>youremail@domain.com (Some Person)</author>
-      <guid>http://localhost:1313/tags/sql-server/</guid>
+      <link>https://paolofullone.github.io/tags/sql-server/</link>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (Paolo Fullone)</author>
+      <guid>https://paolofullone.github.io/tags/sql-server/</guid>
       <description></description>
     </item>
     <item>
       <title>Docker</title>
-      <link>http://localhost:1313/tags/docker/</link>
-      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate><author>youremail@domain.com (Some Person)</author>
-      <guid>http://localhost:1313/tags/docker/</guid>
+      <link>https://paolofullone.github.io/tags/docker/</link>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (Paolo Fullone)</author>
+      <guid>https://paolofullone.github.io/tags/docker/</guid>
       <description></description>
     </item>
     <item>
       <title>Kubernetes</title>
-      <link>http://localhost:1313/tags/kubernetes/</link>
-      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate><author>youremail@domain.com (Some Person)</author>
-      <guid>http://localhost:1313/tags/kubernetes/</guid>
+      <link>https://paolofullone.github.io/tags/kubernetes/</link>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (Paolo Fullone)</author>
+      <guid>https://paolofullone.github.io/tags/kubernetes/</guid>
       <description></description>
     </item>
     <item>
       <title>Microservices</title>
-      <link>http://localhost:1313/tags/microservices/</link>
-      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate><author>youremail@domain.com (Some Person)</author>
-      <guid>http://localhost:1313/tags/microservices/</guid>
+      <link>https://paolofullone.github.io/tags/microservices/</link>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (Paolo Fullone)</author>
+      <guid>https://paolofullone.github.io/tags/microservices/</guid>
       <description></description>
     </item>
   </channel>
