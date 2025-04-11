@@ -6,14 +6,14 @@
     <description>Recent content in SQL Server on Paolo Fullone</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <managingEditor>paolo.enrico@gmail.com (Paolo Fullone)</managingEditor>
-    <webMaster>paolo.enrico@gmail.com (Paolo Fullone)</webMaster>
+    <managingEditor>paolo.enrico@gmail.com (home)</managingEditor>
+    <webMaster>paolo.enrico@gmail.com (home)</webMaster>
     <lastBuildDate>Tue, 08 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://paolofullone.github.io/tags/sql-server/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SignalR</title>
       <link>https://paolofullone.github.io/post/2025-04-08-signalr/</link>
-      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (Paolo Fullone)</author>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (home)</author>
       <guid>https://paolofullone.github.io/post/2025-04-08-signalr/</guid>
       <description>&lt;p&gt;This project utilizes SignalR to send real-time data to one or more clients via WebSockets. In this example, we are streaming data from a SQL Server database to clients..&lt;/p&gt;&#xA;&lt;p&gt;Instead of making a request/response paginated &amp;ldquo;Web API, we decided to use SignalR in this specific project and the Consumer handles the data received. It was applied into a massive data scenario, where we could inquire the database for all orders confirmed by the stock exchange to evaluate some specific scenarios.&lt;/p&gt;</description>
     </item>
