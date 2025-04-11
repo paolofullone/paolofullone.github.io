@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Docker Compose on </title>
+    <title>Docker Compose on Paolo Fullone</title>
     <link>https://paolofullone.github.io/tags/docker-compose/</link>
-    <description>Recent content in Docker Compose on </description>
+    <description>Recent content in Docker Compose on Paolo Fullone</description>
     <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>paolo.enrico@gmail.com (Paolo Fullone)</managingEditor>
