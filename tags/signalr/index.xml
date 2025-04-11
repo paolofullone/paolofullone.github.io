@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SignalR on Paolo Fullone</title>
+    <link>http://localhost:1313/tags/signalr/</link>
+    <description>Recent content in SignalR on Paolo Fullone</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <lastBuildDate>Tue, 08 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/signalr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SignalR</title>
+      <link>http://localhost:1313/post/2025-04-08-signalr/</link>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate><author>youremail@domain.com (Some Person)</author>
+      <guid>http://localhost:1313/post/2025-04-08-signalr/</guid>
+      <description>&lt;p&gt;This project utilizes SignalR to send real-time data to one or more clients via WebSockets, in this example we are streaming the data from a SQL Server database to the clients.&lt;/p&gt;&#xA;&lt;p&gt;Instead of making a request/response paginated WebAPI, we decided to use SignalR in this specific project and the Consumer handles the data received. It was applied into a massive data scenario, were we could inquire the database for all orders confirmed by the stock exchange to evaluate some specific scenarios.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

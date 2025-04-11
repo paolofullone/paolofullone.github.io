@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Paolo Fullone</title>
-    <link>https://paolofullone.github.io/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Paolo Fullone</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <managingEditor>paolo.enrico@gmail.com (Paolo Fullone)</managingEditor>
-    <webMaster>paolo.enrico@gmail.com (Paolo Fullone)</webMaster>
-    <atom:link href="https://paolofullone.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
