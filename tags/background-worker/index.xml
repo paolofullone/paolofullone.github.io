@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Background Worker on Paolo Fullone</title>
+    <link>http://localhost:1313/tags/background-worker/</link>
+    <description>Recent content in Background Worker on Paolo Fullone</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>paolo.enrico@gmail.com (home)</managingEditor>
+    <webMaster>paolo.enrico@gmail.com (home)</webMaster>
+    <lastBuildDate>Sun, 16 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/background-worker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kafka applied in microservices</title>
+      <link>http://localhost:1313/post/2025-03-16-kafka/</link>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (home)</author>
+      <guid>http://localhost:1313/post/2025-03-16-kafka/</guid>
+      <description>&lt;p&gt;In this project we were facing a challenge as a team to move a legacy application to a microservices architecture.&lt;/p&gt;&#xA;&lt;p&gt;The application was built using .NET and was running on a &lt;strong&gt;monolithic architecture&lt;/strong&gt; on a Virtual Machine.&lt;/p&gt;&#xA;&lt;p&gt;We decided to use &lt;a href=&#34;https://kafka.apache.org/&#34;&gt;Kafka&lt;/a&gt; as our message broker to decouple the services and allow for asynchronous communication between them.&lt;/p&gt;&#xA;&lt;p&gt;This application was responsible for retrieving &lt;strong&gt;millions&lt;/strong&gt; of operations on a daily basis and to complete all calculations in a reasonable time for each associated office and financial advisors.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

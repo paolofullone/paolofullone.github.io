@@ -8,14 +8,21 @@
     <language>en</language>
     <managingEditor>paolo.enrico@gmail.com (home)</managingEditor>
     <webMaster>paolo.enrico@gmail.com (home)</webMaster>
-    <lastBuildDate>Tue, 08 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://paolofullone.github.io/tags/sql-server/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>SignalR</title>
+      <title>RunningTracker API</title>
+      <link>https://paolofullone.github.io/post/2025-04-10-runningtracker/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (home)</author>
+      <guid>https://paolofullone.github.io/post/2025-04-10-runningtracker/</guid>
+      <description>&lt;p&gt;Inspired by my running hobby, I built a .NET 8 RESTful API to track amateur runs, focusing on testing mastery. Using Dapper, Docker Compose, and SQL Server with XUnit, Reqnroll, and K6, ensuring robust endpoints.&lt;/p&gt;&#xA;&lt;p&gt;My procurement-honed discipline—20+ years managing complex projects—drove rigorous testing, a skill I apply to production systems.&lt;/p&gt;&#xA;&lt;p&gt;This API, inspired by my running hobby, honed my testing skills in &lt;strong&gt;Unit, Integrated, Functional and Load&lt;/strong&gt; tests. Streamlined testing process for maintainable code, applicable to production systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SignalR for Real-Time Stock Data</title>
       <link>https://paolofullone.github.io/post/2025-04-08-signalr/</link>
       <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (home)</author>
       <guid>https://paolofullone.github.io/post/2025-04-08-signalr/</guid>
-      <description>&lt;p&gt;This project utilizes SignalR to send real-time data to one or more clients via WebSockets. In this example, we are streaming data from a SQL Server database to clients..&lt;/p&gt;&#xA;&lt;p&gt;Instead of making a request/response paginated &amp;ldquo;Web API, we decided to use SignalR in this specific project and the Consumer handles the data received. It was applied into a massive data scenario, where we could inquire the database for all orders confirmed by the stock exchange to evaluate some specific scenarios.&lt;/p&gt;</description>
+      <description>&lt;p&gt;During the development of this project, we were moving a critical system from &lt;strong&gt;.NET Framework&lt;/strong&gt; to &lt;strong&gt;.NET 8&lt;/strong&gt; in a move to cloud initiative. The legacy system was not designed to be cloud-native and didn&amp;rsquo;t have the tests I spoke about in the &lt;a href=&#34;https://paolofullone.github.io/post/2025-04-10-runningtracker/&#34;&gt;Running Tracker&lt;/a&gt; project.&lt;/p&gt;&#xA;&lt;p&gt;This new Web API was a part of the monolith responsible to retrieve from database all the negotiations made by a number of clients and confirmed in the B3 (Brazilian Stock Exchange), the data was processed to calculate taxes, commissions, and net values were going to be made and serve as a basis for the invoices to be sent to the clients.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

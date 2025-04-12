@@ -10,11 +10,11 @@
     <webMaster>paolo.enrico@gmail.com (home)</webMaster>
     <atom:link href="https://paolofullone.github.io/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About me</title>
+      <title>About Me</title>
       <link>https://paolofullone.github.io/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (home)</author>
       <guid>https://paolofullone.github.io/page/about/</guid>
-      <description>&lt;h2 id=&#34;professional-summary&#34;&gt;Professional Summary&lt;/h2&gt;&#xA;&lt;p&gt;My name is &lt;strong&gt;Paolo Fullone&lt;/strong&gt;. I am a backend software engineer with a strong focus on C# and .NET technologies. I&amp;rsquo;ve been working in software engineering since &lt;strong&gt;September 2022&lt;/strong&gt;. Working on a distributed systems environment and in C# and .NET, microservices architecture, RESTful APIs, API Gateways, MVC and cloud-based systems applying clean code and SOLID principles.&lt;/p&gt;&#xA;&lt;p&gt;I have a passion for building scalable and efficient microservices architectures, RESTful APIs, and cloud-based systems. My experience includes working with various databases, messaging systems, and performance optimization techniques. I am committed to writing clean, maintainable code and following best practices in software development.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hey, I’m &lt;strong&gt;Paolo Fullone&lt;/strong&gt;, a backend software engineer who builds robust systems with C# and .NET. Since diving into tech in 2022, I’ve designed microservices that handle millions of operations daily, streamlined real-time data streams, and mastered testing to ensure rock-solid APIs. My passion lies in solving tough problems with clean code and scalable architecture—think Kafka clusters or SignalR pipelines.&lt;/p&gt;&#xA;&lt;p&gt;Before tech, I spent over 20 years leading procurement across Brazil and Mexico, managing complex projects and teams. That experience taught me to align stakeholders and deliver under pressure, skills I now bring to agile dev teams. Fluent in English, Spanish, and Portuguese, I thrive in international settings, bridging cultures to build better software.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

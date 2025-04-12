@@ -12,9 +12,9 @@
  
 
 
-      <title>RunningTracker - Paolo Fullone</title>
+      <title>RunningTracker API - Paolo Fullone</title>
 
-  <meta name="description" content="Opportunity to make some nice tests">
+  <meta name="description" content="Mastering Comprehensive Testing">
   <meta name="author" content="home"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -51,7 +51,7 @@
         "position": 3,
         "item": {
           "@id": "https:\/\/paolofullone.github.io\/post\/2025-04-10-runningtracker\/",
-          "name": "Running tracker"
+          "name": "Running tracker API"
         }
     }]
 }
@@ -62,14 +62,14 @@
   "author": {
     "name" : "Paolo Fullone"
   },
-  "headline": "RunningTracker",
-  "description" : "This project is a RESTful API to track amateur running activities.\nI did it because I am an amateur runner.\nSo, the API itself was not a work challenge, it was more a fun project to do in my free time. But I also took the opportunity to perform all tests I know and provided a detailed explanation of each in the README in Github.\nIf you have something to share or discuss about the project, please feel free to reach out and we can have a chat.\n",
+  "headline": "RunningTracker API",
+  "description" : "Inspired by my running hobby, I built a .NET 8 RESTful API to track amateur runs, focusing on testing mastery. Using Dapper, Docker Compose, and SQL Server with XUnit, Reqnroll, and K6, ensuring robust endpoints.\nMy procurement-honed discipline—20\u002b years managing complex projects—drove rigorous testing, a skill I apply to production systems.\nThis API, inspired by my running hobby, honed my testing skills in Unit, Integrated, Functional and Load tests. Streamlined testing process for maintainable code, applicable to production systems.\n",
   "inLanguage" : "en",
-  "wordCount":  88 ,
+  "wordCount":  246 ,
   "datePublished" : "2025-04-10T00:00:00\u002b00:00",
   "dateModified" : "2025-04-10T00:00:00\u002b00:00",
   "image" : "https:\/\/paolofullone.github.io\/img\/avatar-icon.png",
-  "keywords" : [ "Kafka, .net, csharp, Dotnet, Docker Compose, Unit Tests, Integrated Tests, Functional Tests, Load Tests" ],
+  "keywords" : [ "Testing, .NET, C#, Docker Compose, SQL Server" ],
   "mainEntityOfPage" : "https:\/\/paolofullone.github.io\/post\/2025-04-10-runningtracker\/",
   "publisher" : {
     "@type": "Organization",
@@ -85,15 +85,15 @@
 </script>
 
 
-<meta property="og:title" content="RunningTracker" />
-<meta property="og:description" content="Opportunity to make some nice tests">
+<meta property="og:title" content="RunningTracker API" />
+<meta property="og:description" content="Mastering Comprehensive Testing">
 <meta property="og:image" content="https://paolofullone.github.io/img/avatar-icon.png" />
 <meta property="og:url" content="https://paolofullone.github.io/post/2025-04-10-runningtracker/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Paolo Fullone" />
 
-  <meta name="twitter:title" content="RunningTracker" />
-  <meta name="twitter:description" content="Opportunity to make some nice tests">
+  <meta name="twitter:title" content="RunningTracker API" />
+  <meta name="twitter:description" content="Mastering Comprehensive Testing">
   <meta name="twitter:image" content="https://paolofullone.github.io/img/avatar-icon.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <link href='https://paolofullone.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
@@ -233,12 +233,12 @@
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="post-heading">
               
-                <h1>RunningTracker</h1>
+                <h1>RunningTracker API</h1>
               
               
               
                 
-                  <h2 class="post-subheading">Opportunity to make some nice tests</h2>
+                  <h2 class="post-subheading">Mastering Comprehensive Testing</h2>
                 
               
               
@@ -248,10 +248,10 @@
   <i class="fas fa-calendar"></i>&nbsp;Posted on April 10, 2025
   
   
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;2&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;88&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;246&nbsp;words
   
   
     
@@ -279,41 +279,35 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>This project is a RESTful API to track amateur running activities.</p>
-<p>I did it because I am an amateur runner.</p>
-<p>So, the API itself was not a work challenge, it was more a fun project to do in my free time. But I also took the opportunity to perform all tests I know and provided a detailed explanation of each in the README in <a href="https://github.com/paolofullone/RunningTracker">Github</a>.</p>
-<p>If you have something to share or discuss about the project, please feel free to reach out and we can have a chat.</p>
+        <p>Inspired by my running hobby, I built a .NET 8 RESTful API to track amateur runs, focusing on testing mastery. Using Dapper, Docker Compose, and SQL Server with XUnit, Reqnroll, and K6, ensuring robust endpoints.</p>
+<p>My procurement-honed discipline—20+ years managing complex projects—drove rigorous testing, a skill I apply to production systems.</p>
+<p>This API, inspired by my running hobby, honed my testing skills in <strong>Unit, Integrated, Functional and Load</strong> tests. Streamlined testing process for maintainable code, applicable to production systems.</p>
+<p>In a production environment regarding <strong>Unit Tests</strong> I always achieved 70% coverage, with 100% on business logic, ensuring reliability.</p>
+<p>The <strong>Integration Tests</strong> target is to have tests covering all endpoints of an Web API and the database.</p>
+<p>The <strong>Functional Tests</strong> has to cover all the Infrastructure layers and the business rules.</p>
+<p>The <strong>Load Tests</strong> is to ensure that the API can handle a certain number of requests per second and that the database can handle the load. It can also be used to do a stress test and see how the API and the database behave under heavy load.</p>
+<p>The tech stack used is <strong>.NET 8</strong>, <strong>Dapper</strong>, <strong>Docker Compose</strong> and <strong>SQL Server</strong>, <strong>Xunit</strong>, <strong>Fluent Assertions</strong>, <strong>Reqnroll</strong> and <strong>K6</strong>.</p>
+<p>In the <a href="https://github.com/paolofullone/RunningTracker">project repository</a> you will find a detailed explanation of the project, how to run the project and the tests and some screenshots of the API in action.</p>
+<p>If you have something to share or discuss about the project, please connect via LinkedIn to discuss testing best practices.</p>
 
 
         
           <div class="blog-tags">
             
               
-              <a href="https://paolofullone.github.io/tags/kafka/">Kafka</a>&nbsp;
+              <a href="https://paolofullone.github.io/tags/testing/">Testing</a>&nbsp;
             
               
-              <a href="https://paolofullone.github.io/tags/.net/">.net</a>&nbsp;
+              <a href="https://paolofullone.github.io/tags/.net/">.NET</a>&nbsp;
             
               
-              <a href="https://paolofullone.github.io/tags/csharp/">csharp</a>&nbsp;
-            
-              
-              <a href="https://paolofullone.github.io/tags/dotnet/">Dotnet</a>&nbsp;
+              <a href="https://paolofullone.github.io/tags/c/">C#</a>&nbsp;
             
               
               <a href="https://paolofullone.github.io/tags/docker-compose/">Docker Compose</a>&nbsp;
             
               
-              <a href="https://paolofullone.github.io/tags/unit-tests/">Unit Tests</a>&nbsp;
-            
-              
-              <a href="https://paolofullone.github.io/tags/integrated-tests/">Integrated Tests</a>&nbsp;
-            
-              
-              <a href="https://paolofullone.github.io/tags/functional-tests/">Functional Tests</a>&nbsp;
-            
-              
-              <a href="https://paolofullone.github.io/tags/load-tests/">Load Tests</a>&nbsp;
+              <a href="https://paolofullone.github.io/tags/sql-server/">SQL Server</a>&nbsp;
             
           </div>
         
@@ -328,7 +322,7 @@
     <ul class="share">
       
       <li>
-        <a href="//twitter.com/share?url=https%3a%2f%2fpaolofullone.github.io%2fpost%2f2025-04-10-runningtracker%2f&amp;text=RunningTracker&amp;via=" target="_blank" title="Share on Twitter">
+        <a href="//twitter.com/share?url=https%3a%2f%2fpaolofullone.github.io%2fpost%2f2025-04-10-runningtracker%2f&amp;text=RunningTracker%20API&amp;via=" target="_blank" title="Share on Twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -342,28 +336,28 @@
   
       
       <li>
-        <a href="//reddit.com/submit?url=https%3a%2f%2fpaolofullone.github.io%2fpost%2f2025-04-10-runningtracker%2f&amp;title=RunningTracker" target="_blank" title="Share on Reddit">
+        <a href="//reddit.com/submit?url=https%3a%2f%2fpaolofullone.github.io%2fpost%2f2025-04-10-runningtracker%2f&amp;title=RunningTracker%20API" target="_blank" title="Share on Reddit">
           <i class="fab fa-reddit"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fpaolofullone.github.io%2fpost%2f2025-04-10-runningtracker%2f&amp;title=RunningTracker" target="_blank" title="Share on LinkedIn">
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fpaolofullone.github.io%2fpost%2f2025-04-10-runningtracker%2f&amp;title=RunningTracker%20API" target="_blank" title="Share on LinkedIn">
           <i class="fab fa-linkedin"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fpaolofullone.github.io%2fpost%2f2025-04-10-runningtracker%2f&amp;title=RunningTracker" target="_blank" title="Share on StumbleUpon">
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fpaolofullone.github.io%2fpost%2f2025-04-10-runningtracker%2f&amp;title=RunningTracker%20API" target="_blank" title="Share on StumbleUpon">
           <i class="fab fa-stumbleupon"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fpaolofullone.github.io%2fpost%2f2025-04-10-runningtracker%2f&amp;description=RunningTracker" target="_blank" title="Share on Pinterest">
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fpaolofullone.github.io%2fpost%2f2025-04-10-runningtracker%2f&amp;description=RunningTracker%20API" target="_blank" title="Share on Pinterest">
           <i class="fab fa-pinterest"></i>
         </a>
       </li>
@@ -385,9 +379,9 @@
                   <ul>
                 
                 
-                    <li><a href="/post/2025-04-08-signalr/">SignalR</a></li>
+                    <li><a href="/post/2025-04-08-signalr/">SignalR for Real-Time Stock Data</a></li>
                 
-                    <li><a href="/post/2025-03-16-kafka/">Kafka</a></li>
+                    <li><a href="/post/2025-03-16-kafka/">Kafka for Microservices</a></li>
                 
               </ul>
 
@@ -399,7 +393,7 @@
         <ul class="pager blog-pager">
           
             <li class="previous">
-              <a href="https://paolofullone.github.io/post/2025-04-08-signalr/" data-toggle="tooltip" data-placement="top" title="SignalR">&larr; Previous Post</a>
+              <a href="https://paolofullone.github.io/post/2025-04-08-signalr/" data-toggle="tooltip" data-placement="top" title="SignalR for Real-Time Stock Data">&larr; Previous Post</a>
             </li>
           
           

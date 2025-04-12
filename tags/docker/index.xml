@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docker on Paolo Fullone</title>
-    <link>https://paolofullone.github.io/tags/docker/</link>
+    <link>http://localhost:1313/tags/docker/</link>
     <description>Recent content in Docker on Paolo Fullone</description>
     <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>paolo.enrico@gmail.com (home)</managingEditor>
     <webMaster>paolo.enrico@gmail.com (home)</webMaster>
     <lastBuildDate>Sun, 16 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://paolofullone.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kafka</title>
-      <link>https://paolofullone.github.io/post/2025-03-16-kafka/</link>
+      <link>http://localhost:1313/post/2025-03-16-kafka/</link>
       <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (home)</author>
-      <guid>https://paolofullone.github.io/post/2025-03-16-kafka/</guid>
+      <guid>http://localhost:1313/post/2025-03-16-kafka/</guid>
       <description>&lt;p&gt;We were facing a challenge as a team to move a legacy application to a microservices architecture. The application was built using .NET and was running on a monolithic architecture. We decided to use &lt;a href=&#34;https://kafka.apache.org/&#34;&gt;Kafka&lt;/a&gt; as our message broker to decouple the services and allow for asynchronous communication between them.&lt;/p&gt;&#xA;&lt;p&gt;This application was responsible for retrieving millions of operations on a daily basis and to complete all calculations in a reasonable time for each associated office and financial advisors.&lt;/p&gt;</description>
     </item>
   </channel>

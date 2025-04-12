@@ -8,21 +8,14 @@
     <language>en</language>
     <managingEditor>paolo.enrico@gmail.com (home)</managingEditor>
     <webMaster>paolo.enrico@gmail.com (home)</webMaster>
-    <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://paolofullone.github.io/tags/kafka/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>RunningTracker</title>
-      <link>https://paolofullone.github.io/post/2025-04-10-runningtracker/</link>
-      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (home)</author>
-      <guid>https://paolofullone.github.io/post/2025-04-10-runningtracker/</guid>
-      <description>&lt;p&gt;This project is a RESTful API to track amateur running activities.&lt;/p&gt;&#xA;&lt;p&gt;I did it because I am an amateur runner.&lt;/p&gt;&#xA;&lt;p&gt;So, the API itself was not a work challenge, it was more a fun project to do in my free time. But I also took the opportunity to perform all tests I know and provided a detailed explanation of each in the README in &lt;a href=&#34;https://github.com/paolofullone/RunningTracker&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;If you have something to share or discuss about the project, please feel free to reach out and we can have a chat.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Kafka</title>
+      <title>Kafka for Microservices</title>
       <link>https://paolofullone.github.io/post/2025-03-16-kafka/</link>
       <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (home)</author>
       <guid>https://paolofullone.github.io/post/2025-03-16-kafka/</guid>
-      <description>&lt;p&gt;We were facing a challenge as a team to move a legacy application to a microservices architecture. The application was built using .NET and was running on a monolithic architecture. We decided to use &lt;a href=&#34;https://kafka.apache.org/&#34;&gt;Kafka&lt;/a&gt; as our message broker to decouple the services and allow for asynchronous communication between them.&lt;/p&gt;&#xA;&lt;p&gt;This application was responsible for retrieving millions of operations on a daily basis and to complete all calculations in a reasonable time for each associated office and financial advisors.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I helped migrate a .NET monolith to microservices, processing 4-5 million daily operations for financial advisors. Using Kafka and Kubernetes, I streamlined complex commission rules. My 20+ years in procurement enabled me to align teams and deliver tough updates. Despite delays, my refactoring ensured cloud readiness.&lt;/p&gt;&#xA;&lt;p&gt;The application was built using .NET and was running on a &lt;strong&gt;monolithic architecture&lt;/strong&gt; on a Virtual Machine.&lt;/p&gt;&#xA;&lt;p&gt;We decided to use &lt;a href=&#34;https://kafka.apache.org/&#34;&gt;Kafka&lt;/a&gt; as our message broker to decouple the services and allow for asynchronous communication between them.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

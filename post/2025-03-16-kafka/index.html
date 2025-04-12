@@ -12,9 +12,9 @@
  
 
 
-      <title>Kafka - Paolo Fullone</title>
+      <title>Kafka for Microservices - Paolo Fullone</title>
 
-  <meta name="description" content="Multiple Consumers Challenge">
+  <meta name="description" content="Scaling Financial Systems">
   <meta name="author" content="home"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -51,7 +51,7 @@
         "position": 3,
         "item": {
           "@id": "https:\/\/paolofullone.github.io\/post\/2025-03-16-kafka\/",
-          "name": "Kafka"
+          "name": "Kafka for microservices"
         }
     }]
 }
@@ -62,14 +62,14 @@
   "author": {
     "name" : "Paolo Fullone"
   },
-  "headline": "Kafka",
-  "description" : "We were facing a challenge as a team to move a legacy application to a microservices architecture. The application was built using .NET and was running on a monolithic architecture. We decided to use Kafka as our message broker to decouple the services and allow for asynchronous communication between them.\nThis application was responsible for retrieving millions of operations on a daily basis and to complete all calculations in a reasonable time for each associated office and financial advisors.\n",
+  "headline": "Kafka for Microservices",
+  "description" : "I helped migrate a .NET monolith to microservices, processing 4-5 million daily operations for financial advisors. Using Kafka and Kubernetes, I streamlined complex commission rules. My 20\u002b years in procurement enabled me to align teams and deliver tough updates. Despite delays, my refactoring ensured cloud readiness.\nThe application was built using .NET and was running on a monolithic architecture on a Virtual Machine.\nWe decided to use Kafka as our message broker to decouple the services and allow for asynchronous communication between them.\n",
   "inLanguage" : "en",
-  "wordCount":  127 ,
+  "wordCount":  392 ,
   "datePublished" : "2025-03-16T00:00:00\u002b00:00",
   "dateModified" : "2025-03-16T00:00:00\u002b00:00",
   "image" : "https:\/\/paolofullone.github.io\/img\/avatar-icon.png",
-  "keywords" : [ "kafka, .net, csharp, dotnet, Kubernetes, docker, microservices" ],
+  "keywords" : [ "Kafka, .NET, C#, Kubernetes, Microservices" ],
   "mainEntityOfPage" : "https:\/\/paolofullone.github.io\/post\/2025-03-16-kafka\/",
   "publisher" : {
     "@type": "Organization",
@@ -85,15 +85,15 @@
 </script>
 
 
-<meta property="og:title" content="Kafka" />
-<meta property="og:description" content="Multiple Consumers Challenge">
+<meta property="og:title" content="Kafka for Microservices" />
+<meta property="og:description" content="Scaling Financial Systems">
 <meta property="og:image" content="https://paolofullone.github.io/img/avatar-icon.png" />
 <meta property="og:url" content="https://paolofullone.github.io/post/2025-03-16-kafka/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Paolo Fullone" />
 
-  <meta name="twitter:title" content="Kafka" />
-  <meta name="twitter:description" content="Multiple Consumers Challenge">
+  <meta name="twitter:title" content="Kafka for Microservices" />
+  <meta name="twitter:description" content="Scaling Financial Systems">
   <meta name="twitter:image" content="https://paolofullone.github.io/img/avatar-icon.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <link href='https://paolofullone.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
@@ -233,12 +233,12 @@
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="post-heading">
               
-                <h1>Kafka</h1>
+                <h1>Kafka for Microservices</h1>
               
               
               
                 
-                  <h2 class="post-subheading">Multiple Consumers Challenge</h2>
+                  <h2 class="post-subheading">Scaling Financial Systems</h2>
                 
               
               
@@ -248,10 +248,10 @@
   <i class="fas fa-calendar"></i>&nbsp;Posted on March 16, 2025
   
   
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;2&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;127&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;392&nbsp;words
   
   
     
@@ -279,35 +279,37 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>We were facing a challenge as a team to move a legacy application to a microservices architecture. The application was built using .NET and was running on a monolithic architecture. We decided to use <a href="https://kafka.apache.org/">Kafka</a> as our message broker to decouple the services and allow for asynchronous communication between them.</p>
-<p>This application was responsible for retrieving millions of operations on a daily basis and to complete all calculations in a reasonable time for each associated office and financial advisors.</p>
-<p>We&rsquo;ve had to setup multiple consumers per pod on the Kubernetes cluster in order to finish all calcullations in a reasonable time.</p>
-<p>The <a href="https://github.com/paolofullone/Kafka">Github</a> contains a readme explaining how to run the project and I also wrote a <a href="https://medium.com/dev-genius/scaling-data-processing-with-net-kafka-and-parallel-consumers-659362b4fe0d">Medium</a> post explaining the architecture and the challenges we faced.</p>
+        <p>I helped migrate a .NET monolith to microservices, processing 4-5 million daily operations for financial advisors. Using Kafka and Kubernetes, I streamlined complex commission rules. My 20+ years in procurement enabled me to align teams and deliver tough updates. Despite delays, my refactoring ensured cloud readiness.</p>
+<p>The application was built using .NET and was running on a <strong>monolithic architecture</strong> on a Virtual Machine.</p>
+<p>We decided to use <a href="https://kafka.apache.org/">Kafka</a> as our message broker to decouple the services and allow for asynchronous communication between them.</p>
+<p>This application retrieved <strong>4 to 5 million</strong> of operations on a daily basis and to complete all calculations in a reasonable time for each associated office and financial advisors.</p>
+<p>It was a critical system. since it was going to calculate the approved amounts of fees for each financial advisor and the office they belonged to.</p>
+<p>The complex business rules required frequent updates, which I streamlined during the development.</p>
+<p>From the technical side the challenge was to setup multiple consumers per pod on the Kubernetes cluster in order to accelerated calculations to under 20 minutes per working day.</p>
+<p>I was involved in this project in the test phase, however the project itself was not ready and hasn&rsquo;t been deployed and tested in any environment. So I did a lot of refactoring, tested each layer independently (repositories, services, controllers and worker) and what was initially an activity to last one or two sprints took almost 3 months to finish. The background service of the worker was not working as expected and I had to refactor the code to make it work.</p>
+<p>My procurement experience was key to aligning teams, deliver bad news right after my involvement and present a strategy to continue the development of the project, modifying only the necessary parts of the code and not the entire application.</p>
+<p>With this project I contributed enabling one more application to be removed from the Virtual Machines and moved to the Kubernetes cluster in the company Move to Cloud initiative.</p>
+<p>In this project I also included some notes regarding <strong>Health Checks</strong> and how to implement them in a <strong>microservices architecture</strong>.</p>
+<p>The <a href="https://github.com/paolofullone/Kafka">project repository</a> contains the code and the instructions to run the applications, a <strong>Web API and a Worker</strong> locally using Docker and Docker Compose, and also has a very detailed explanation of the tools used and the architecture of the application.</p>
 
 
         
           <div class="blog-tags">
             
               
-              <a href="https://paolofullone.github.io/tags/kafka/">kafka</a>&nbsp;
+              <a href="https://paolofullone.github.io/tags/kafka/">Kafka</a>&nbsp;
             
               
-              <a href="https://paolofullone.github.io/tags/.net/">.net</a>&nbsp;
+              <a href="https://paolofullone.github.io/tags/.net/">.NET</a>&nbsp;
             
               
-              <a href="https://paolofullone.github.io/tags/csharp/">csharp</a>&nbsp;
-            
-              
-              <a href="https://paolofullone.github.io/tags/dotnet/">dotnet</a>&nbsp;
+              <a href="https://paolofullone.github.io/tags/c/">C#</a>&nbsp;
             
               
               <a href="https://paolofullone.github.io/tags/kubernetes/">Kubernetes</a>&nbsp;
             
               
-              <a href="https://paolofullone.github.io/tags/docker/">docker</a>&nbsp;
-            
-              
-              <a href="https://paolofullone.github.io/tags/microservices/">microservices</a>&nbsp;
+              <a href="https://paolofullone.github.io/tags/microservices/">Microservices</a>&nbsp;
             
           </div>
         
@@ -322,7 +324,7 @@
     <ul class="share">
       
       <li>
-        <a href="//twitter.com/share?url=https%3a%2f%2fpaolofullone.github.io%2fpost%2f2025-03-16-kafka%2f&amp;text=Kafka&amp;via=" target="_blank" title="Share on Twitter">
+        <a href="//twitter.com/share?url=https%3a%2f%2fpaolofullone.github.io%2fpost%2f2025-03-16-kafka%2f&amp;text=Kafka%20for%20Microservices&amp;via=" target="_blank" title="Share on Twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -336,28 +338,28 @@
   
       
       <li>
-        <a href="//reddit.com/submit?url=https%3a%2f%2fpaolofullone.github.io%2fpost%2f2025-03-16-kafka%2f&amp;title=Kafka" target="_blank" title="Share on Reddit">
+        <a href="//reddit.com/submit?url=https%3a%2f%2fpaolofullone.github.io%2fpost%2f2025-03-16-kafka%2f&amp;title=Kafka%20for%20Microservices" target="_blank" title="Share on Reddit">
           <i class="fab fa-reddit"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fpaolofullone.github.io%2fpost%2f2025-03-16-kafka%2f&amp;title=Kafka" target="_blank" title="Share on LinkedIn">
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fpaolofullone.github.io%2fpost%2f2025-03-16-kafka%2f&amp;title=Kafka%20for%20Microservices" target="_blank" title="Share on LinkedIn">
           <i class="fab fa-linkedin"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fpaolofullone.github.io%2fpost%2f2025-03-16-kafka%2f&amp;title=Kafka" target="_blank" title="Share on StumbleUpon">
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fpaolofullone.github.io%2fpost%2f2025-03-16-kafka%2f&amp;title=Kafka%20for%20Microservices" target="_blank" title="Share on StumbleUpon">
           <i class="fab fa-stumbleupon"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fpaolofullone.github.io%2fpost%2f2025-03-16-kafka%2f&amp;description=Kafka" target="_blank" title="Share on Pinterest">
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fpaolofullone.github.io%2fpost%2f2025-03-16-kafka%2f&amp;description=Kafka%20for%20Microservices" target="_blank" title="Share on Pinterest">
           <i class="fab fa-pinterest"></i>
         </a>
       </li>
@@ -379,9 +381,9 @@
                   <ul>
                 
                 
-                    <li><a href="/post/2025-04-10-runningtracker/">RunningTracker</a></li>
+                    <li><a href="/post/2025-04-10-runningtracker/">RunningTracker API</a></li>
                 
-                    <li><a href="/post/2025-04-08-signalr/">SignalR</a></li>
+                    <li><a href="/post/2025-04-08-signalr/">SignalR for Real-Time Stock Data</a></li>
                 
               </ul>
 
@@ -394,7 +396,7 @@
           
           
             <li class="next">
-              <a href="https://paolofullone.github.io/post/2025-04-08-signalr/" data-toggle="tooltip" data-placement="top" title="SignalR">Next Post &rarr;</a>
+              <a href="https://paolofullone.github.io/post/2025-04-08-signalr/" data-toggle="tooltip" data-placement="top" title="SignalR for Real-Time Stock Data">Next Post &rarr;</a>
             </li>
           
         </ul>

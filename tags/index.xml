@@ -11,17 +11,17 @@
     <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://paolofullone.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>.Net</title>
+      <title>.NET</title>
       <link>https://paolofullone.github.io/tags/.net/</link>
       <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (home)</author>
       <guid>https://paolofullone.github.io/tags/.net/</guid>
       <description></description>
     </item>
     <item>
-      <title>Csharp</title>
-      <link>https://paolofullone.github.io/tags/csharp/</link>
+      <title>C#</title>
+      <link>https://paolofullone.github.io/tags/c%23/</link>
       <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (home)</author>
-      <guid>https://paolofullone.github.io/tags/csharp/</guid>
+      <guid>https://paolofullone.github.io/tags/c%23/</guid>
       <description></description>
     </item>
     <item>
@@ -32,45 +32,17 @@
       <description></description>
     </item>
     <item>
-      <title>Dotnet</title>
-      <link>https://paolofullone.github.io/tags/dotnet/</link>
+      <title>SQL Server</title>
+      <link>https://paolofullone.github.io/tags/sql-server/</link>
       <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (home)</author>
-      <guid>https://paolofullone.github.io/tags/dotnet/</guid>
+      <guid>https://paolofullone.github.io/tags/sql-server/</guid>
       <description></description>
     </item>
     <item>
-      <title>Functional Tests</title>
-      <link>https://paolofullone.github.io/tags/functional-tests/</link>
+      <title>Testing</title>
+      <link>https://paolofullone.github.io/tags/testing/</link>
       <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (home)</author>
-      <guid>https://paolofullone.github.io/tags/functional-tests/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Integrated Tests</title>
-      <link>https://paolofullone.github.io/tags/integrated-tests/</link>
-      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (home)</author>
-      <guid>https://paolofullone.github.io/tags/integrated-tests/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Kafka</title>
-      <link>https://paolofullone.github.io/tags/kafka/</link>
-      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (home)</author>
-      <guid>https://paolofullone.github.io/tags/kafka/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Load Tests</title>
-      <link>https://paolofullone.github.io/tags/load-tests/</link>
-      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (home)</author>
-      <guid>https://paolofullone.github.io/tags/load-tests/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Unit Tests</title>
-      <link>https://paolofullone.github.io/tags/unit-tests/</link>
-      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (home)</author>
-      <guid>https://paolofullone.github.io/tags/unit-tests/</guid>
+      <guid>https://paolofullone.github.io/tags/testing/</guid>
       <description></description>
     </item>
     <item>
@@ -81,17 +53,10 @@
       <description></description>
     </item>
     <item>
-      <title>SQL Server</title>
-      <link>https://paolofullone.github.io/tags/sql-server/</link>
-      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (home)</author>
-      <guid>https://paolofullone.github.io/tags/sql-server/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Docker</title>
-      <link>https://paolofullone.github.io/tags/docker/</link>
+      <title>Kafka</title>
+      <link>https://paolofullone.github.io/tags/kafka/</link>
       <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (home)</author>
-      <guid>https://paolofullone.github.io/tags/docker/</guid>
+      <guid>https://paolofullone.github.io/tags/kafka/</guid>
       <description></description>
     </item>
     <item>

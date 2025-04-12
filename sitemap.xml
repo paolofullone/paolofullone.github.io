@@ -8,25 +8,10 @@
     <loc>https://paolofullone.github.io/tags/.net/</loc>
     <lastmod>2025-04-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://paolofullone.github.io/tags/csharp/</loc>
+    <loc>https://paolofullone.github.io/tags/c%23/</loc>
     <lastmod>2025-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://paolofullone.github.io/tags/docker-compose/</loc>
-    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://paolofullone.github.io/tags/dotnet/</loc>
-    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://paolofullone.github.io/tags/functional-tests/</loc>
-    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://paolofullone.github.io/tags/integrated-tests/</loc>
-    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://paolofullone.github.io/tags/kafka/</loc>
-    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://paolofullone.github.io/tags/load-tests/</loc>
     <lastmod>2025-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://paolofullone.github.io/post/</loc>
@@ -35,22 +20,22 @@
     <loc>https://paolofullone.github.io/post/2025-04-10-runningtracker/</loc>
     <lastmod>2025-04-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://paolofullone.github.io/tags/sql-server/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://paolofullone.github.io/tags/</loc>
     <lastmod>2025-04-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://paolofullone.github.io/tags/unit-tests/</loc>
+    <loc>https://paolofullone.github.io/tags/testing/</loc>
     <lastmod>2025-04-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://paolofullone.github.io/post/2025-04-08-signalr/</loc>
-    <lastmod>2025-04-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://paolofullone.github.io/tags/signalr/</loc>
     <lastmod>2025-04-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://paolofullone.github.io/tags/sql-server/</loc>
+    <loc>https://paolofullone.github.io/post/2025-04-08-signalr/</loc>
     <lastmod>2025-04-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://paolofullone.github.io/tags/docker/</loc>
+    <loc>https://paolofullone.github.io/tags/kafka/</loc>
     <lastmod>2025-03-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://paolofullone.github.io/post/2025-03-16-kafka/</loc>
