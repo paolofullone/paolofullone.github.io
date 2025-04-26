@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 <html lang="en" itemscope itemtype="http://schema.org/WebPage">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     
 
   <meta charset="utf-8" />
@@ -12,23 +12,23 @@
  
 
 
-      <title>SignalR for Real-Time Stock Data - Paolo Fullone</title>
+      <title>Health Checks - Paolo Fullone</title>
 
-  <meta name="description" content="Streaming vs. Paginated APIs">
+  <meta name="description" content="A Practical Guide">
   <meta name="author" content="home"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "WebSite",
     "name": "Paolo Fullone",
     
-    "url": "https:\/\/paolofullone.github.io\/"
+    "url": "http:\/\/localhost:1313\/"
 }
 </script><script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "Organization",
   "name": "",
-  "url": "https:\/\/paolofullone.github.io\/"
+  "url": "http:\/\/localhost:1313\/"
   
   
   
@@ -43,15 +43,15 @@
         "@type": "ListItem",
         "position": 1,
         "item": {
-          "@id": "https:\/\/paolofullone.github.io\/",
+          "@id": "http:\/\/localhost:1313\/",
           "name": "home"
         }
     },{
         "@type": "ListItem",
         "position": 3,
         "item": {
-          "@id": "https:\/\/paolofullone.github.io\/post\/2025-04-08-signalr\/",
-          "name": "Signal r for real time stock data"
+          "@id": "http:\/\/localhost:1313\/post\/2025-04-18-healthchecks\/",
+          "name": "Health checks"
         }
     }]
 }
@@ -62,21 +62,21 @@
   "author": {
     "name" : "Paolo Fullone"
   },
-  "headline": "SignalR for Real-Time Stock Data",
-  "description" : "During the development of this project, we were moving a critical system from .NET Framework to .NET 8 in a move to cloud initiative. The legacy system was not designed to be cloud-native and didn\u0026rsquo;t have the tests I spoke about in the Running Tracker project.\nThis new Web API was a part of the monolith responsible to retrieve from database all the negotiations made by a number of clients and confirmed in the B3 (Brazilian Stock Exchange), the data was processed to calculate taxes, commissions, and net values were going to be made and serve as a basis for the invoices to be sent to the clients.\n",
+  "headline": "Health Checks",
+  "description" : "I helped migrate a .NET monolith to microservices, processing 4-5 million daily operations for financial advisors. Using Kafka and Kubernetes, I streamlined complex commission rules. My 20\u002b years in procurement enabled me to align teams and deliver tough updates. Despite delays, my refactoring ensured cloud readiness.\nThe application was built using .NET and was running on a monolithic architecture on a Virtual Machine.\nWe decided to use Kafka as our message broker to decouple the services and allow for asynchronous communication between them.\n",
   "inLanguage" : "en",
-  "wordCount":  350 ,
-  "datePublished" : "2025-04-08T00:00:00\u002b00:00",
-  "dateModified" : "2025-04-08T00:00:00\u002b00:00",
-  "image" : "https:\/\/paolofullone.github.io\/img\/avatar-icon.png",
-  "keywords" : [ "SignalR, .NET, C#, Docker Compose, SQL Server" ],
-  "mainEntityOfPage" : "https:\/\/paolofullone.github.io\/post\/2025-04-08-signalr\/",
+  "wordCount":  392 ,
+  "datePublished" : "2025-04-26T00:00:00\u002b00:00",
+  "dateModified" : "2025-04-26T00:00:00\u002b00:00",
+  "image" : "http:\/\/localhost:1313\/img\/avatar-icon.png",
+  "keywords" : [ "Kafka, .NET, C#, Kubernetes, Microservices" ],
+  "mainEntityOfPage" : "http:\/\/localhost:1313\/post\/2025-04-18-healthchecks\/",
   "publisher" : {
     "@type": "Organization",
-    "name" : "https:\/\/paolofullone.github.io\/",
+    "name" : "http:\/\/localhost:1313\/",
     "logo" : {
         "@type" : "ImageObject",
-        "url" : "https:\/\/paolofullone.github.io\/img\/avatar-icon.png",
+        "url" : "http:\/\/localhost:1313\/img\/avatar-icon.png",
         "height" :  60 ,
         "width" :  60
     }
@@ -85,24 +85,24 @@
 </script>
 
 
-<meta property="og:title" content="SignalR for Real-Time Stock Data" />
-<meta property="og:description" content="Streaming vs. Paginated APIs">
-<meta property="og:image" content="https://paolofullone.github.io/img/avatar-icon.png" />
-<meta property="og:url" content="https://paolofullone.github.io/post/2025-04-08-signalr/" />
+<meta property="og:title" content="Health Checks" />
+<meta property="og:description" content="A Practical Guide">
+<meta property="og:image" content="http://localhost:1313/img/avatar-icon.png" />
+<meta property="og:url" content="http://localhost:1313/post/2025-04-18-healthchecks/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Paolo Fullone" />
 
-  <meta name="twitter:title" content="SignalR for Real-Time Stock Data" />
-  <meta name="twitter:description" content="Streaming vs. Paginated APIs">
-  <meta name="twitter:image" content="https://paolofullone.github.io/img/avatar-icon.png" />
+  <meta name="twitter:title" content="Health Checks" />
+  <meta name="twitter:description" content="A Practical Guide">
+  <meta name="twitter:image" content="http://localhost:1313/img/avatar-icon.png" />
   <meta name="twitter:card" content="summary_large_image" />
-  <link href='https://paolofullone.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <link href='http://localhost:1313/img/favicon.ico' rel='icon' type='image/x-icon'/>
   <meta name="generator" content="Hugo 0.145.0">
-  <link rel="alternate" href="https://paolofullone.github.io/index.xml" type="application/rss+xml" title="Paolo Fullone"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css" integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
+  <link rel="alternate" href="http://localhost:1313/index.xml" type="application/rss+xml" title="Paolo Fullone"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css" integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.6.0/css/all.css" integrity="sha384-h/hnnw1Bi4nbpD6kE7nYfCXzovi622sY5WBxww8ARKwpdLj5kUWjRuyiXaD1U2JT" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"><link rel="stylesheet" href="https://paolofullone.github.io/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"><link rel="stylesheet" href="http://localhost:1313/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
-  <link rel="stylesheet" href="https://paolofullone.github.io/css/highlight.min.css" /><link rel="stylesheet" href="https://paolofullone.github.io/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="http://localhost:1313/css/highlight.min.css" /><link rel="stylesheet" href="http://localhost:1313/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
 
 
@@ -117,7 +117,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="https://paolofullone.github.io/">Paolo Fullone</a>
+      <a class="navbar-brand" href="http://localhost:1313/">Paolo Fullone</a>
     </div>
 
     <div class="collapse navbar-collapse" id="main-navbar">
@@ -151,8 +151,8 @@
     
       <div class="avatar-container">
         <div class="avatar-img-border">
-          <a title="Paolo Fullone" href="https://paolofullone.github.io/">
-            <img class="avatar-img" src="https://paolofullone.github.io/img/avatar-icon.png" alt="Paolo Fullone" />
+          <a title="Paolo Fullone" href="http://localhost:1313/">
+            <img class="avatar-img" src="http://localhost:1313/img/avatar-icon.png" alt="Paolo Fullone" />
            
           </a>
         </div>
@@ -233,25 +233,25 @@
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="post-heading">
               
-                <h1>SignalR for Real-Time Stock Data</h1>
+                <h1>Health Checks</h1>
               
               
               
                 
-                  <h2 class="post-subheading">Streaming vs. Paginated APIs</h2>
+                  <h2 class="post-subheading">A Practical Guide</h2>
                 
               
               
                 <span class="post-meta">
   
   
-  <i class="fas fa-calendar"></i>&nbsp;Posted on April 8, 2025
+  <i class="fas fa-calendar"></i>&nbsp;Posted on April 26, 2025
   
   
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;2&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;350&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;392&nbsp;words
   
   
     
@@ -279,35 +279,37 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>During the development of this project, we were moving a critical system from <strong>.NET Framework</strong> to <strong>.NET 8</strong> in a move to cloud initiative. The legacy system was not designed to be cloud-native and didn&rsquo;t have the tests I spoke about in the <a href="https://paolofullone.github.io/post/2025-04-10-runningtracker/">Running Tracker</a> project.</p>
-<p>This new Web API was a part of the monolith responsible to retrieve from database all the negotiations made by a number of clients and confirmed in the B3 (Brazilian Stock Exchange), the data was processed to calculate taxes, commissions, and net values were going to be made and serve as a basis for the invoices to be sent to the clients.</p>
-<p>So we decided to go with this approach of utilizing SignalR to send real-time data to one or more clients via WebSockets instead of making a request/response paginated Web API,</p>
-<p>This solution enabled real-time consumer processing. And it was built in a way that the data was being transmitted as received from database, the total operation in database could take some minutes to complete, so we decided to stream the data as it was being received.</p>
-<p>In the conclusion of the project, the solution was built with all the tests stacks, halved calculation time to 10 minutes and we were able to deploy it on Azure Kubernetes Service (AKS) via a CI/CD pipeline and Horizontal Scalling was implemented to handle the load of the requests. The system handled approximately 1 million records per day and the average time of calculation is 10 min avoiding pagination delays.</p>
-<p>I was responsible for developing the web api that connected to database and streamed the data to the clients via SignalR.</p>
-<p>If the application didn&rsquo;t achieve the speed and latency necessary we were ready to serialize the data, but in the end we didn&rsquo;t need to do that. The idea was to use either MessageMq or Google Protocol Buffers.</p>
-<p>The tech stack used is <strong>.NET 8</strong>, <strong>SignalR</strong>,<strong>Dapper</strong>, <strong>Docker Compose</strong> and <strong>SQL Server</strong>.</p>
-<p>In the <a href="https://github.com/paolofullone/SignalR">project repository</a> you will find a more technical explanation and how to run the project.</p>
-<p>Connect via LinkedIn to discuss real-time systems.</p>
+        <p>I helped migrate a .NET monolith to microservices, processing 4-5 million daily operations for financial advisors. Using Kafka and Kubernetes, I streamlined complex commission rules. My 20+ years in procurement enabled me to align teams and deliver tough updates. Despite delays, my refactoring ensured cloud readiness.</p>
+<p>The application was built using .NET and was running on a <strong>monolithic architecture</strong> on a Virtual Machine.</p>
+<p>We decided to use <a href="https://kafka.apache.org/">Kafka</a> as our message broker to decouple the services and allow for asynchronous communication between them.</p>
+<p>This application retrieved <strong>4 to 5 million</strong> of operations on a daily basis and to complete all calculations in a reasonable time for each associated office and financial advisors.</p>
+<p>It was a critical system. since it was going to calculate the approved amounts of fees for each financial advisor and the office they belonged to.</p>
+<p>The complex business rules required frequent updates, which I streamlined during the development.</p>
+<p>From the technical side the challenge was to setup multiple consumers per pod on the Kubernetes cluster in order to accelerated calculations to under 20 minutes per working day.</p>
+<p>I was involved in this project in the test phase, however the project itself was not ready and hasn&rsquo;t been deployed and tested in any environment. So I did a lot of refactoring, tested each layer independently (repositories, services, controllers and worker) and what was initially an activity to last one or two sprints took almost 3 months to finish. The background service of the worker was not working as expected and I had to refactor the code to make it work.</p>
+<p>My procurement experience was key to aligning teams, deliver bad news right after my involvement and present a strategy to continue the development of the project, modifying only the necessary parts of the code and not the entire application.</p>
+<p>With this project I contributed enabling one more application to be removed from the Virtual Machines and moved to the Kubernetes cluster in the company Move to Cloud initiative.</p>
+<p>In this project I also included some notes regarding <strong>Health Checks</strong> and how to implement them in a <strong>microservices architecture</strong>.</p>
+<p>The <a href="https://github.com/paolofullone/Kafka">project repository</a> contains the code and the instructions to run the applications, a <strong>Web API and a Worker</strong> locally using Docker and Docker Compose, and also has a very detailed explanation of the tools used and the architecture of the application.</p>
 
 
         
           <div class="blog-tags">
             
               
-              <a href="https://paolofullone.github.io/tags/signalr/">SignalR</a>&nbsp;
+              <a href="http://localhost:1313/tags/kafka/">Kafka</a>&nbsp;
             
               
-              <a href="https://paolofullone.github.io/tags/.net/">.NET</a>&nbsp;
+              <a href="http://localhost:1313/tags/.net/">.NET</a>&nbsp;
             
               
-              <a href="https://paolofullone.github.io/tags/c/">C#</a>&nbsp;
+              <a href="http://localhost:1313/tags/c/">C#</a>&nbsp;
             
               
-              <a href="https://paolofullone.github.io/tags/docker-compose/">Docker Compose</a>&nbsp;
+              <a href="http://localhost:1313/tags/kubernetes/">Kubernetes</a>&nbsp;
             
               
-              <a href="https://paolofullone.github.io/tags/sql-server/">SQL Server</a>&nbsp;
+              <a href="http://localhost:1313/tags/microservices/">Microservices</a>&nbsp;
             
           </div>
         
@@ -322,42 +324,42 @@
     <ul class="share">
       
       <li>
-        <a href="//twitter.com/share?url=https%3a%2f%2fpaolofullone.github.io%2fpost%2f2025-04-08-signalr%2f&amp;text=SignalR%20for%20Real-Time%20Stock%20Data&amp;via=" target="_blank" title="Share on Twitter">
+        <a href="//twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fpost%2f2025-04-18-healthchecks%2f&amp;text=Health%20Checks&amp;via=" target="_blank" title="Share on Twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fpaolofullone.github.io%2fpost%2f2025-04-08-signalr%2f" target="_blank" title="Share on Facebook">
+        <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fpost%2f2025-04-18-healthchecks%2f" target="_blank" title="Share on Facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//reddit.com/submit?url=https%3a%2f%2fpaolofullone.github.io%2fpost%2f2025-04-08-signalr%2f&amp;title=SignalR%20for%20Real-Time%20Stock%20Data" target="_blank" title="Share on Reddit">
+        <a href="//reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fpost%2f2025-04-18-healthchecks%2f&amp;title=Health%20Checks" target="_blank" title="Share on Reddit">
           <i class="fab fa-reddit"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fpaolofullone.github.io%2fpost%2f2025-04-08-signalr%2f&amp;title=SignalR%20for%20Real-Time%20Stock%20Data" target="_blank" title="Share on LinkedIn">
+        <a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2flocalhost%3a1313%2fpost%2f2025-04-18-healthchecks%2f&amp;title=Health%20Checks" target="_blank" title="Share on LinkedIn">
           <i class="fab fa-linkedin"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fpaolofullone.github.io%2fpost%2f2025-04-08-signalr%2f&amp;title=SignalR%20for%20Real-Time%20Stock%20Data" target="_blank" title="Share on StumbleUpon">
+        <a href="//www.stumbleupon.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fpost%2f2025-04-18-healthchecks%2f&amp;title=Health%20Checks" target="_blank" title="Share on StumbleUpon">
           <i class="fab fa-stumbleupon"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fpaolofullone.github.io%2fpost%2f2025-04-08-signalr%2f&amp;description=SignalR%20for%20Real-Time%20Stock%20Data" target="_blank" title="Share on Pinterest">
+        <a href="//www.pinterest.com/pin/create/button/?url=http%3a%2f%2flocalhost%3a1313%2fpost%2f2025-04-18-healthchecks%2f&amp;description=Health%20Checks" target="_blank" title="Share on Pinterest">
           <i class="fab fa-pinterest"></i>
         </a>
       </li>
@@ -379,9 +381,9 @@
                   <ul>
                 
                 
-                    <li><a href="/post/2025-04-26-healthchecks/">Health Checks</a></li>
-                
                     <li><a href="/post/2025-04-10-runningtracker/">RunningTracker API</a></li>
+                
+                    <li><a href="/post/2025-04-08-signalr/">SignalR for Real-Time Stock Data</a></li>
                 
                     <li><a href="/post/2025-03-16-kafka/">Kafka for Microservices</a></li>
                 
@@ -395,13 +397,9 @@
         <ul class="pager blog-pager">
           
             <li class="previous">
-              <a href="https://paolofullone.github.io/post/2025-03-16-kafka/" data-toggle="tooltip" data-placement="top" title="Kafka for Microservices">&larr; Previous Post</a>
+              <a href="http://localhost:1313/post/2025-04-10-runningtracker/" data-toggle="tooltip" data-placement="top" title="RunningTracker API">&larr; Previous Post</a>
             </li>
           
-          
-            <li class="next">
-              <a href="https://paolofullone.github.io/post/2025-04-10-runningtracker/" data-toggle="tooltip" data-placement="top" title="RunningTracker API">Next Post &rarr;</a>
-            </li>
           
         </ul>
       
@@ -484,7 +482,7 @@
 
           
             &nbsp;&bull;&nbsp;
-            <a href="https://paolofullone.github.io/">Paolo Fullone</a>
+            <a href="http://localhost:1313/">Paolo Fullone</a>
           
         </p>
         
@@ -500,11 +498,11 @@
 <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha384-w5y/xIeYixWvfM+A1cEbmHPURnvyqmVg5eVENruEdDjcyRLUSNej7512JQGspFUr" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 
-<script src="https://paolofullone.github.io/js/main.js"></script>
-<script src="https://paolofullone.github.io/js/highlight.min.js"></script>
+<script src="http://localhost:1313/js/main.js"></script>
+<script src="http://localhost:1313/js/highlight.min.js"></script>
 <script> hljs.initHighlightingOnLoad(); </script>
 <script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="https://paolofullone.github.io/js/load-photoswipe.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="http://localhost:1313/js/load-photoswipe.js"></script>
 
 
 

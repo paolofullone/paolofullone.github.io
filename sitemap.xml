@@ -3,27 +3,45 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://paolofullone.github.io/</loc>
-    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://paolofullone.github.io/tags/.net/</loc>
-    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://paolofullone.github.io/tags/c%23/</loc>
-    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://paolofullone.github.io/tags/docker/</loc>
+    <lastmod>2025-04-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://paolofullone.github.io/post/2025-04-26-healthchecks/</loc>
+    <lastmod>2025-04-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://paolofullone.github.io/tags/healthchecks/</loc>
+    <lastmod>2025-04-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://paolofullone.github.io/tags/kubernetes/</loc>
+    <lastmod>2025-04-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://paolofullone.github.io/tags/microservices/</loc>
+    <lastmod>2025-04-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://paolofullone.github.io/tags/oracle/</loc>
+    <lastmod>2025-04-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://paolofullone.github.io/post/</loc>
+    <lastmod>2025-04-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://paolofullone.github.io/tags/sql-server/</loc>
+    <lastmod>2025-04-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://paolofullone.github.io/tags/</loc>
+    <lastmod>2025-04-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://paolofullone.github.io/tags/docker-compose/</loc>
     <lastmod>2025-04-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://paolofullone.github.io/post/</loc>
-    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://paolofullone.github.io/post/2025-04-10-runningtracker/</loc>
-    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://paolofullone.github.io/tags/sql-server/</loc>
-    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://paolofullone.github.io/tags/</loc>
     <lastmod>2025-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://paolofullone.github.io/tags/testing/</loc>
@@ -39,12 +57,6 @@
     <lastmod>2025-03-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://paolofullone.github.io/post/2025-03-16-kafka/</loc>
-    <lastmod>2025-03-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://paolofullone.github.io/tags/kubernetes/</loc>
-    <lastmod>2025-03-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://paolofullone.github.io/tags/microservices/</loc>
     <lastmod>2025-03-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://paolofullone.github.io/page/about/</loc>

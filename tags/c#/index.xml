@@ -8,8 +8,15 @@
     <language>en</language>
     <managingEditor>paolo.enrico@gmail.com (home)</managingEditor>
     <webMaster>paolo.enrico@gmail.com (home)</webMaster>
-    <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://paolofullone.github.io/tags/c%23/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Health Checks</title>
+      <link>https://paolofullone.github.io/post/2025-04-26-healthchecks/</link>
+      <pubDate>Sat, 26 Apr 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (home)</author>
+      <guid>https://paolofullone.github.io/post/2025-04-26-healthchecks/</guid>
+      <description>&lt;p&gt;In a microservices architecture, ensuring each service communicates reliably with databases like SQL Server and Oracle is critical but challenging due to restricted permissions. Health checks monitor service health, and in this post, I focus on advanced checks that execute &lt;em&gt;custom queries&lt;/em&gt; to verify table access, beyond standard NuGet packages. I&amp;rsquo;ve learned to anticipate issues like permission errors, ensuring robust systems for global teams.&lt;/p&gt;&#xA;&lt;p&gt;I developed a &lt;code&gt;MultiDatabase&lt;/code&gt; health check to test specific queries across SQL Server and Oracle, addressing the challenge of limited database access rights that require DBA intervention (e.g., user creation, encrypted connection strings). This check integrates with CI/CD pipelines, catching issues before deployment, complementing my 95% test coverage in projects like RunningTracker.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>RunningTracker API</title>
       <link>https://paolofullone.github.io/post/2025-04-10-runningtracker/</link>
