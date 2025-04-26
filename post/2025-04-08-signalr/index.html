@@ -63,9 +63,9 @@
     "name" : "Paolo Fullone"
   },
   "headline": "SignalR for Real-Time Stock Data",
-  "description" : "During the development of this project, we were moving a critical system from .NET Framework to .NET 8 in a move to cloud initiative. The legacy system was not designed to be cloud-native and didn\u0026rsquo;t have the tests I spoke about in the Running Tracker project.\nThis new Web API was a part of the monolith responsible to retrieve from database all the negotiations made by a number of clients and confirmed in the B3 (Brazilian Stock Exchange), the data was processed to calculate taxes, commissions, and net values were going to be made and serve as a basis for the invoices to be sent to the clients.\n",
+  "description" : "During the development of this project, I was moving a critical system from .NET Framework to .NET 8 in a move to cloud initiative. The legacy system was not designed to be cloud-native and didn\u0026rsquo;t have the tests I spoke about in the Running Tracker project.\nThis new Web API was a part of the monolith responsible for retrieving from database all the negotiations made by a number of clients and confirmed in the B3 (Brazilian Stock Exchange), the data was processed to calculate taxes and commissions.\n",
   "inLanguage" : "en",
-  "wordCount":  350 ,
+  "wordCount":  382 ,
   "datePublished" : "2025-04-08T00:00:00\u002b00:00",
   "dateModified" : "2025-04-08T00:00:00\u002b00:00",
   "image" : "https:\/\/paolofullone.github.io\/img\/avatar-icon.png",
@@ -251,7 +251,7 @@
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;2&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;350&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;382&nbsp;words
   
   
     
@@ -279,16 +279,29 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>During the development of this project, we were moving a critical system from <strong>.NET Framework</strong> to <strong>.NET 8</strong> in a move to cloud initiative. The legacy system was not designed to be cloud-native and didn&rsquo;t have the tests I spoke about in the <a href="https://paolofullone.github.io/post/2025-04-10-runningtracker/">Running Tracker</a> project.</p>
-<p>This new Web API was a part of the monolith responsible to retrieve from database all the negotiations made by a number of clients and confirmed in the B3 (Brazilian Stock Exchange), the data was processed to calculate taxes, commissions, and net values were going to be made and serve as a basis for the invoices to be sent to the clients.</p>
-<p>So we decided to go with this approach of utilizing SignalR to send real-time data to one or more clients via WebSockets instead of making a request/response paginated Web API,</p>
-<p>This solution enabled real-time consumer processing. And it was built in a way that the data was being transmitted as received from database, the total operation in database could take some minutes to complete, so we decided to stream the data as it was being received.</p>
-<p>In the conclusion of the project, the solution was built with all the tests stacks, halved calculation time to 10 minutes and we were able to deploy it on Azure Kubernetes Service (AKS) via a CI/CD pipeline and Horizontal Scalling was implemented to handle the load of the requests. The system handled approximately 1 million records per day and the average time of calculation is 10 min avoiding pagination delays.</p>
-<p>I was responsible for developing the web api that connected to database and streamed the data to the clients via SignalR.</p>
-<p>If the application didn&rsquo;t achieve the speed and latency necessary we were ready to serialize the data, but in the end we didn&rsquo;t need to do that. The idea was to use either MessageMq or Google Protocol Buffers.</p>
+        <p>During the development of this project, I was moving a critical system from <strong>.NET Framework</strong> to <strong>.NET 8</strong> in a move to cloud initiative. The legacy system was not designed to be cloud-native and didn&rsquo;t have the tests I spoke about in the <a href="https://paolofullone.github.io/post/2025-04-10-runningtracker/">Running Tracker</a> project.</p>
+<p>This new Web API was a part of the monolith responsible for retrieving from database all the negotiations made by a number of clients and confirmed in the B3 (Brazilian Stock Exchange), the data was processed to calculate taxes and commissions.</p>
+<p>I implemented <code>SignalR</code> to send real-time data to one or more clients via <code>WebSockets</code> eliminating pagination overhead in a Web API and I optimized Dapper queries to stream SQL Server data efficiently, critical for high-volume financial systems.</p>
+<p>This solution enabled real-time consumer processing. And it was built in a way that the data was being transmitted as received from database, the total operation in database could take some minutes to complete, so I decided to stream the data as it was being received:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">async</span> <span class="n">Task</span><span class="p">&lt;</span><span class="n">IEnumerable</span><span class="p">&lt;</span><span class="n">SampleMessage</span><span class="p">&gt;&gt;</span> <span class="n">StreamAllAsync</span><span class="p">([</span><span class="n">EnumeratorCancellation</span><span class="p">]</span> <span class="n">CancellationToken</span> <span class="n">cancellationToken</span> <span class="p">=</span> <span class="k">default</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">const</span> <span class="kt">string</span> <span class="n">sql</span> <span class="p">=</span> <span class="s">&#34;SELECT Id, MESSAGE_ID AS MessageId, MESSAGE_DATE AS MessageDate FROM dbo.SAMPLE_MESSAGES ORDER BY Id&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kt">var</span> <span class="n">command</span> <span class="p">=</span> <span class="k">new</span> <span class="n">CommandDefinition</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">        <span class="n">commandText</span><span class="p">:</span> <span class="n">sql</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl">        <span class="n">flags</span><span class="p">:</span> <span class="n">CommandFlags</span><span class="p">.</span><span class="n">None</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl">        <span class="n">cancellationToken</span><span class="p">:</span> <span class="n">cancellationToken</span>
+</span></span><span class="line"><span class="cl">    <span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="k">await</span> <span class="n">_connection</span><span class="p">.</span><span class="n">QueryAsync</span><span class="p">&lt;</span><span class="n">SampleMessage</span><span class="p">&gt;(</span><span class="n">command</span><span class="p">).</span><span class="n">ConfigureAwait</span><span class="p">(</span><span class="kc">false</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>In the conclusion of the project, tests were implemented in production, halved calculation time to 10 minutes and the Web Api was designed for AKS deployment with CI/CD readiness, and Horizontal Scaling was implemented to handle the load of the requests. The system handled approximately 1 million records per day and the average time of calculation is 10 min avoiding pagination delays.</p>
+<p>I was responsible for developing the Web Api that connected to database and streamed the data to the clients via SignalR.</p>
+<p>If the application didn&rsquo;t meet the speed and latency necessary I was ready to serialize the data. We considered RabbitMQ or Protocol Buffers for serialization but not required in the final solution.</p>
 <p>The tech stack used is <strong>.NET 8</strong>, <strong>SignalR</strong>,<strong>Dapper</strong>, <strong>Docker Compose</strong> and <strong>SQL Server</strong>.</p>
-<p>In the <a href="https://github.com/paolofullone/SignalR">project repository</a> you will find a more technical explanation and how to run the project.</p>
-<p>Connect via LinkedIn to discuss real-time systems.</p>
+<p>In the <a href="https://github.com/paolofullone/SignalR">project repository</a> you will find a more technical explanation and how to run the project and once it starts you will see the messages being streamed to the client and consumed in real-time.</p>
+<p><img src="/img/SignalR/SignalR-Stream-Consume.png" alt="SignalR Streamming Consumer"></p>
+<p>Connect via <a href="https://www.linkedin.com/in/paolofullone">LinkedIn</a> to discuss real-time systems.</p>
 
 
         
