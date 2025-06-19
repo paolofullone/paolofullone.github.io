@@ -8,8 +8,15 @@
     <language>en</language>
     <managingEditor>paolo.enrico@gmail.com (home)</managingEditor>
     <webMaster>paolo.enrico@gmail.com (home)</webMaster>
-    <lastBuildDate>Sat, 26 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://paolofullone.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trades GraphQl API</title>
+      <link>https://paolofullone.github.io/post/2025-06-19-graphql-benefits/</link>
+      <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate><author>paolo.enrico@gmail.com (home)</author>
+      <guid>https://paolofullone.github.io/post/2025-06-19-graphql-benefits/</guid>
+      <description>&lt;h2 id=&#34;why-graphql-excels-for-querying-large-complex-datasets-a-real-world-trading-api-case-study&#34;&gt;Why GraphQL Excels for Querying Large, Complex Datasets: A Real-World Trading API Case Study&lt;/h2&gt;&#xA;&lt;p&gt;Handling large, complex datasets efficiently is a critical challenge in modern APIs. In a real-world project, I built a .NET GraphQL API integrated with SignalR to retrieve and stream thousands of trades from a database in real time. The &lt;code&gt;Trades&lt;/code&gt; class, with approximately 100 properties (e.g., trade ID, price, volume, timestamp, counterparty details), represents a rich dataset where different domains (e.g., analytics, reporting, trading desks) require specific subsets of data. Previously, I illustrated GraphQL’s benefits with a simplified task management API using a &lt;code&gt;WorkTasks&lt;/code&gt; table. Here, I’ll show how those benefits apply to this real-world trading API, enabling precise, scalable, and flexible querying of trade data.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Health Checks</title>
       <link>https://paolofullone.github.io/post/2025-04-26-healthchecks/</link>
